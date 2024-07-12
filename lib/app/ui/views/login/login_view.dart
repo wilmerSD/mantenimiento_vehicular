@@ -58,7 +58,6 @@ class LoginView extends StatelessWidget {
                     onTap: () => FocusScope.of(context).unfocus(),
                     child: Stack(
                       children: [
-                        
                         Align(
                             alignment: Alignment.centerLeft,
                             child: FadeInLeftBig(
@@ -68,7 +67,8 @@ class LoginView extends StatelessWidget {
                                 decoration: BoxDecoration(
                                   boxShadow: [
                                     BoxShadow(
-                                      color: AppColors.grayBlue.withOpacity(0.4),
+                                      color:
+                                          AppColors.grayBlue.withOpacity(0.4),
                                       spreadRadius: 4,
                                       blurRadius: 7,
                                       offset: const Offset(0, 3),
@@ -107,7 +107,7 @@ class LoginView extends StatelessWidget {
                                                 .isFirstTimeSession.value
                                             ? const ChangeFirstPass()
                                             : FadeInRight(
-                                              child: Column(
+                                                child: Column(
                                                   children: [
                                                     const SizedBox(
                                                       height: kSizeNormalLittle,
@@ -136,10 +136,9 @@ class LoginView extends StatelessWidget {
                                                             .isLoading.value,
                                                         onTap: () => controller
                                                             .goToLogin01(),
-                                                                
                                                       ),
                                                     ),
-                                              
+
                                                     /*  Expanded(child: Container()),
                                                                                 Row(
                                                                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -191,7 +190,7 @@ class LoginView extends StatelessWidget {
                                                                                 ) */
                                                   ],
                                                 ),
-                                            ),
+                                              ),
                                       )),
                                   const SizedBox(
                                     width: kSizeBigLarge,
@@ -274,7 +273,7 @@ class LoginView extends StatelessWidget {
                                               const SizedBox(
                                                 height: kSizeNormalLittle,
                                               ),
-                                              Text('Valtx',
+                                              Text('Harkay',
                                                   style: AppTextStyle(context)
                                                       .bold42(
                                                           color: AppColors
@@ -295,64 +294,12 @@ class LoginView extends StatelessWidget {
                                                   loading: controller
                                                       .isLoading.value,
                                                   onTap: () => controller
-                                                      .validateForm(context),
+                                                      .goToLogin01(),
                                                 ),
                                               ),
-
-                                              /*  Expanded(child: Container()),
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Row(
-                                    children: [
-                                      Stack(
-                                        children: [
-                                          Container(
-                                            height: 30,
-                                            width: 30,
-                                            decoration: const BoxDecoration(
-                                              shape: BoxShape.circle,
-                                              color: AppColors.contentNotification,
-                                            ),
-                                          ),
-                                          Container(
-                                            margin: EdgeInsets.symmetric(
-                                                horizontal: kMarginLittleApp.w,
-                                                vertical: kMarginLittleApp.h),
-                                            height: kSizeBigLittle.h,
-                                            width: kSizeBigLittle.h,
-                                            child: Image.asset('assets/whatsapp.png'),
-                                          ),
-                                        ],
-                                      ),
-                                      SizedBox(
-                                        width: kSizeLittle.h,
-                                      ),
-                                      GestureDetector(
-                                        onTap: () {
-                                          /* controller.launchWhatsApp(); */
-                                        },
-                                        child: const Text(
-                                          '¿Necesitas ayuda?',
-                                          style: TextStyle(
-                                            color: Colors.blue,
-                                            decoration: TextDecoration.underline,
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                  const Text("versión: 1.0.0 ")
-                                ],
-                              ),
-                              SizedBox(
-                                height: kSizeSmallLittle.h,
-                              ) */
                                             ],
                                           ),
                                   )),
-                              /* ),
-                    ), */
                             ],
                           ),
                         ),
