@@ -1,0 +1,9 @@
+dependencies: \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsAPI/FIRInstallationsItem+RegisterInstallationAPI.m \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsAPI/FIRInstallationsItem+RegisterInstallationAPI.h \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsItem.h \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsStatus.h \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.h \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsStore/FIRInstallationsStoredAuthToken.h

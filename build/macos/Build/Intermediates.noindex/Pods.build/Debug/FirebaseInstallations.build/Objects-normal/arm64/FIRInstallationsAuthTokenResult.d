@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsAuthTokenResult.m \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsAuthTokenResultInternal.h \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h

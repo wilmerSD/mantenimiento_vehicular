@@ -1,0 +1,36 @@
+abstract class AppRoutesName {
+  /* static const baseUrl = "https://asistencia.valtx.pe:8020/asistencia_valtx"; */
+  static const baseUrl = "";
+  static const SPLASH = "/splash";
+  static const LOGIN = "/login";
+  static const RECOVERPASS = '/recoverpass';
+  static const LAYOUT = '/layout';
+  static const HOME = "$baseUrl/#/home";
+  static const RECORDATTENDANCE = "$baseUrl/#/recordattendance";
+  static const DETAIL = "$baseUrl/#/historical";
+  static const ORDERDETAIL = "$baseUrl/#/orderDetail";
+  static const NEWORDER = "$baseUrl/#/newOrder";
+  static const SEARCHPRODUCT = "$baseUrl/#/searchProduct";
+  static const STAFF = "$baseUrl/#/staff";
+  static const JUSTIFICATIONS = "$baseUrl/#/justifications";
+  static const UNKNOW = "$baseUrl/#/unknow";
+  static const PROFILE = '$baseUrl/#/profiles';
+  static const USERS = '$baseUrl/#/users';
+  static const MARKINGTYPE = '$baseUrl/#/markingtype';
+  static const SCHEDULES = '$baseUrl/#/schedules';
+  static const WORKMODALITY = '$baseUrl/#/workmodality';
+  static const REQUEST = '$baseUrl/#/request';
+  static const MYREQUEST = '$baseUrl/#/myrequest';
+  static const AUDITREPORT = '$baseUrl/#/auditreport';
+  static const DAILYREPORT = '$baseUrl/#/dailyreport';
+  static const DAILYLOCATIONREPORT = '$baseUrl/#/dailyreport-location';
+  static const MINISTRYREPORT = '$baseUrl/#/ministryreport';
+  static const OVERTIMEREPORT = '$baseUrl/#/overtimereport';
+  static const REQUESTREPORT = '$baseUrl/#/requestreport';
+  static const TYPEREQUEST = '$baseUrl/#/typeRequest';
+  static const TYPEVALIDATION = '$baseUrl/#/typeValidation';
+  static const STATEREQUEST = '$baseUrl/#/stateRequest';
+  static const MYPROFILE = '$baseUrl/#/myProfile';
+  static const ROLES = '$baseUrl/#/roles';
+  static const CHANGEPASS = '$baseUrl/#/changepass';
+}

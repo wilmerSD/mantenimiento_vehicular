@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17358065935",
+    "project_id": "app-valtx-asistencia-rrhh",
+    "storage_bucket": "app-valtx-asistencia-rrhh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17358065935:android:20508bd05ff349536eee7a",
+        "android_client_info": {
+          "package_name": "com.valtx.app_valtx_asistencia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoqRTGcg2o7y00ZAouAB1kiCqClUFzGhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
