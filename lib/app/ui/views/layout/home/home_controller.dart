@@ -76,8 +76,8 @@ class HomeController extends GetxController {
   
   RxList<DatumAllStateGeneral> listTypeMantenimiento = RxList([
     DatumAllStateGeneral(idEstado: -1, descripcion: "Seleccionar"),
-    DatumAllStateGeneral(idEstado: 1, descripcion: "General"),
-    DatumAllStateGeneral(idEstado: 1, descripcion: "Revisión Bateria"),
+    DatumAllStateGeneral(idEstado: 1, descripcion: "Preventivo"),
+    DatumAllStateGeneral(idEstado: 1, descripcion: "Correctivo"),
   ]);
 
   RxBool showToast = RxBool(false);

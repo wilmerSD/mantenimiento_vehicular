@@ -3,6 +3,7 @@ import 'package:app_valtx_asistencia/app/ui/components/button/btn_primary.dart';
 import 'package:app_valtx_asistencia/app/ui/components/dropdown_select.dart';
 import 'package:app_valtx_asistencia/app/ui/components/input_primary.dart';
 import 'package:app_valtx_asistencia/app/ui/components/option_select.dart';
+import 'package:app_valtx_asistencia/app/ui/components/responsive.dart';
 import 'package:app_valtx_asistencia/app/ui/views/layout/home/home_controller.dart';
 import 'package:app_valtx_asistencia/core/helpers/constant.dart';
 import 'package:app_valtx_asistencia/core/helpers/helpers.dart';
@@ -245,7 +246,8 @@ class AppBarHome extends StatelessWidget {
             } */
           });
 
-      return  ListView(
+      return  Responsive.isDesktop(context) || Responsive.isTablet(context) ?
+      ListView(
               children: [
                 Column(
                   children: [
@@ -391,6 +393,226 @@ class AppBarHome extends StatelessWidget {
                           const SizedBox(
                             width: kSizeExtraMediun,
                           ),
+                          Expanded(
+                              flex: 2, child: inputTipoMantenimiento),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(child: inputComentarioVehiculo),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: SizedBox(
+                              child: DottedBorder(
+                                color: Colors.green,
+                                dashPattern: const [
+                                  5,
+                                  3
+                                ], // Ajusta los valores para cambiar la apariencia del borde entrecortado
+                                strokeWidth: 2,
+                                borderType: BorderType
+                                    .RRect, // Usar borde redondeado si es necesario
+                                radius: const Radius.circular(
+                                    12), // Radio para las esquinas redondeadas
+                                child: Container(
+                                  padding: const EdgeInsets.all(16.0),
+                                  child:  const Center(
+                                      child: Text('Adjuntar archivo')),
+                                ),
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(
+                  height: 40,
+                ),
+                Center(child: SizedBox(
+                  width: 200,
+                  child: btnSearch,)
+                  ),
+                  const SizedBox(height: 20,)
+              ],
+            ):ListView(
+              children: [
+                Column(
+                  children: [
+                    Container(
+                      color: Colors.blue,
+                    )
+                  ],
+                ),
+                const Text(" Datos del cliente"),
+                const SizedBox(
+                  height: 5.0,
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                      vertical: kPaddingAppNormalApp,
+                      horizontal: kPaddingAppLargeApp),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(kRadiusMedium),
+                    color: Colors.white,
+                  ),
+                  child: Column(
+                    //crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(flex: 2, child: inputNroDocument),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(flex: 2, child: inputName),
+
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(flex: 2, child: inputApellidos),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(flex: 2, child: inputCorreo),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(flex: 2, child: inputCelular),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(
+                  height: 40,
+                ),
+                const Text(" Datos del vehículo"),
+                const SizedBox(
+                  height: 5.0,
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                      vertical: kPaddingAppNormalApp,
+                      horizontal: kPaddingAppLargeApp),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(kRadiusMedium),
+                    color: Colors.white,
+                  ),
+                  child: Column(
+                    //crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(flex: 3, child: inputNameVehiculo),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(flex: 3, child: inputAno),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      
+                      Row(
+                        children: [
+                          Expanded(flex: 3, child: inputNumSerie),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(flex: 3, child: inputNumChasis),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(child: inputDescription),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(
+                  height: 60,
+                ),
+                const Text(" Datos de Mantenimiento"),
+                const SizedBox(
+                  height: 5.0,
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                      vertical: kPaddingAppNormalApp,
+                      horizontal: kPaddingAppLargeApp),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(kRadiusMedium),
+                    color: Colors.white,
+                  ),
+                  child: Column(
+                    //crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(flex: 2, child: inputEstadoBateria),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(flex: 2, child: inputFechaIngreso),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
+                          Expanded(flex: 2, child: inputFechaSalida),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: kSizeBigLittle,
+                      ),
+                      Row(
+                        children: [
                           Expanded(
                               flex: 2, child: inputTipoMantenimiento),
                         ],

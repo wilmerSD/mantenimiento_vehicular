@@ -27,7 +27,7 @@ class FormLogin extends GetView<LoginController> {
         ),
         SizedBox(height: 40.h),
         FieldForm(
-          label: "Nro. documento",
+          label: "Usuario",
           hintText: "",
           textInputType: TextInputType.emailAddress,
           textEditingController: controller.ctrlEmailText,
