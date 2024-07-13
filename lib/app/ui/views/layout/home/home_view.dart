@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:app_valtx_asistencia/app/data/temporary/routeDataTemporary.dart';
 import 'package:app_valtx_asistencia/app/ui/components/button/btn_primary_ink.dart';
 import 'package:app_valtx_asistencia/app/ui/components/responsive.dart';
@@ -19,8 +21,24 @@ class HomeView extends StatelessWidget {
     return GetBuilder<HomeController>(
         init: HomeController(),
         builder: (controller) {
-          return AppBarHome();
-   
+          return 
+          Stack(
+                  children: [
+                    AppBarHome(),
+                    Positioned(
+                      top: 0.0,
+                      right: 15.0,
+                      child: Align(
+                        alignment: Alignment.topRight,
+                        child: Obx(() => Visibility(
+                            visible: controller.showToast.value,
+                            child: controller.toast)),
+                      ),
+                    ),
+                  ],
+                );
         });
   }
+  
 }
+

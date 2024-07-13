@@ -1,3 +1,4 @@
+import 'package:app_valtx_asistencia/app/models/response/maintainers/response_allstategeneral_model.dart';
 import 'package:app_valtx_asistencia/app/ui/components/button/btn_cancel.dart';
 import 'package:app_valtx_asistencia/app/ui/components/button/btn_primary.dart';
 import 'package:app_valtx_asistencia/app/ui/components/dropdown_select.dart';
@@ -24,7 +25,7 @@ class EditStateRequest extends StatelessWidget {
           final keyForm = GlobalKey<FormState>();
           /* 📌 Nombre estado de solicitud */
           Widget inputStateRequest = InputPrimary(
-            label: "Nombre estado de solicitud",
+            label: "Nombres del cliente",
             maxLength: 35,
             textEditingController: controller.descriptionStatesRequest,
             validator: (value) {
@@ -50,10 +51,10 @@ class EditStateRequest extends StatelessWidget {
                   );
                 },
               ).toList(),
-              /* onChanged: (newValue) {
+              onChanged: (newValue) {
             controller.currentState.value =
-                (newValue as DatumSelect2Combo).value!;
-          }, */
+                (newValue as DatumAllStateGeneral).idEstado!;
+          },
             ),
           );
 
@@ -69,10 +70,10 @@ class EditStateRequest extends StatelessWidget {
           Widget btnSave = BtnPrimary(
               text: "Guardar",
               onTap: () {
-                if (keyForm.currentState!.validate()) {
+                /* if (keyForm.currentState!.validate()) {
                   controller.updateStateRequest();
                   Get.back();
-                }
+                } */
                 /*  controller.updateStateRequest();
                 Get.back(); */
               });
@@ -88,7 +89,7 @@ class EditStateRequest extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Editar estado de solicitudes",
+                        Text("Editar datos",
                             style: AppTextStyle(context)
                                 .bold26(color: AppColors.grayDarkPlus)),
                         Row(

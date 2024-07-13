@@ -34,11 +34,7 @@ class MarkingTypeView extends StatelessWidget {
                 )
               : Stack(
                   children: [
-                    ListView(
-                      children: const [
-                        BodyMarkingType(),
-                      ],
-                    ),
+                    BodyMarkingType(),
                     Positioned(
                       top: 0.0,
                       right: 15.0,

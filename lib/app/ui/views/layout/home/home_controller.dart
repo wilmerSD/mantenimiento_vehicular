@@ -90,9 +90,9 @@ class HomeController extends GetxController {
   /* 📌 Para inicializar variables */
   void _initialize() async {
     /* await _getinformationUser(); */
-    await _getinformationUserLocal();
+    /* await _getinformationUserLocal();
     getScheduleByUser();
-    nameUserProfile();
+    nameUserProfile(); */
   }
 
   /* 📌 Obtener nombres completos del usuario */
@@ -159,6 +159,10 @@ class HomeController extends GetxController {
  /*  RxBool showToast = RxBool(false);
   Widget toast = const SizedBox(); */
 
+  void guardarDatos() async{
+    showToastNow(
+            0, "success", "Datos guardados con éxito");
+  }
   /* 📌 Mostrar Toast */
   void showToastNow(int icon, String type, String text) async {
     showToast.value = true;
@@ -166,4 +170,5 @@ class HomeController extends GetxController {
     await Future.delayed(const Duration(milliseconds: 2500));
     showToast.value = false;
   }
+  
 }

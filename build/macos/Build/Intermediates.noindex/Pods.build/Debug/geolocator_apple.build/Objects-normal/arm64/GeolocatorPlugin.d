@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/build/macos/Build/Intermediates.noindex/Pods.build/Debug/geolocator_apple.build/module.modulemap \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/mantenimiento_vehicular/build/macos/Build/Intermediates.noindex/Pods.build/Debug/geolocator_apple.build/module.modulemap \
   /Users/josewilmersanchezdiaz/.pub-cache/hosted/pub.dev/geolocator_apple-2.3.2/macos/Classes/GeolocatorPlugin.m \
-  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/Target\ Support\ Files/geolocator_apple/geolocator_apple-prefix.pch \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/mantenimiento_vehicular/macos/Pods/Target\ Support\ Files/geolocator_apple/geolocator_apple-prefix.pch \
   /Users/josewilmersanchezdiaz/.pub-cache/hosted/pub.dev/geolocator_apple-2.3.2/macos/Classes/GeolocatorPlugin.h \
   /Users/josewilmersanchezdiaz/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \
   /Users/josewilmersanchezdiaz/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h \

@@ -135,7 +135,7 @@ class LoginView extends StatelessWidget {
                                                         loading: controller
                                                             .isLoading.value,
                                                         onTap: () => controller
-                                                            .goToLogin01(),
+                                                            .validateFormChangePass(context),
                                                       ),
                                                     ),
 
@@ -294,7 +294,7 @@ class LoginView extends StatelessWidget {
                                                   loading: controller
                                                       .isLoading.value,
                                                   onTap: () => controller
-                                                      .goToLogin01(),
+                                                      .validateFormChangePass(context),
                                                 ),
                                               ),
                                             ],

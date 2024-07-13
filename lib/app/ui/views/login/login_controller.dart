@@ -100,8 +100,9 @@ class LoginController extends GetxController {
   Future<void> doAuthentication() async {
     Spinner.show();
     isLoading.value = true;
+    await Future.delayed(const Duration(milliseconds: 1500));
     try {
-      final response = await _authenticationRepository.postAuthentication(
+     /*  final response = await _authenticationRepository.postAuthentication(
         RequestAuthenticationModel(
           username: ctrlEmailText.text.trim(),
           password: ctrlPasswordText.text.trim(),
@@ -113,9 +114,19 @@ class LoginController extends GetxController {
         showToastNow(
             2, "error", "Ups! Ocurrió un error, ${response.statusMessage}");
         return;
+      } */
+      if (ctrlEmailText.text.trim() != "Alexander"){
+        showToastNow(
+            2, "error", "El usuario ingresado es incorrecto");
+        return;
+      }
+      if (ctrlPasswordText.text.trim() != "Alexander"){
+        showToastNow(
+            2, "error", "La contraseña ingresada es incorrecta");
+        return;
       }
 
-      //Guardar la información en sesión
+    /*   //Guardar la información en sesión
       final bridge = response.data!.token;
       String payloadBase64 = bridge!.split('.')[1];
       SesionDataTemporary.data = jsonDecode(utf8.decode(base64Url.decode(
@@ -139,7 +150,7 @@ class LoginController extends GetxController {
       String fullNamesUser = "$firstnames $lastnames";
       await StorageService.set(key: Keys.kIdRole, value: idRole.toString());
       await StorageService.set(key: Keys.kNameUser, value: fullNamesUser);
-      await StorageService.set(key: Keys.kIdUser, value: idUser.toString());
+      await StorageService.set(key: Keys.kIdUser, value: idUser.toString()); */
 
       //Ir a nueva ruta y eliminar de memoria controllers existentes
       /* if (isFirstTimeSession.value != true) {

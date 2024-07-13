@@ -36,6 +36,8 @@ class StateRequestController extends GetxController {
   //VARIABLES
   RxList<DatumAllStateGeneral> stateList = RxList([
     DatumAllStateGeneral(idEstado: -1, descripcion: "Seleccionar"),
+    DatumAllStateGeneral(idEstado: 0, descripcion: "En proceso"),
+    DatumAllStateGeneral(idEstado: 1, descripcion: "Terminado"),
   ]);
   RxInt currentState = RxInt(-1);
 
@@ -77,7 +79,7 @@ class StateRequestController extends GetxController {
   }
 
   void _initialize() async {
-    await getAllStatesGeneral();
+    /* await getAllStatesGeneral(); */
     isLoading.value = false;
     /* await getAllStatesRequests(); */
   }

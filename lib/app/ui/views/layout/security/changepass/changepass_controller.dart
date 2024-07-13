@@ -60,6 +60,7 @@ class ChangePassController extends GetxController {
     fullNamesUser.text = await StorageService.get(Keys.kNameUser);
     idUser = await StorageService.get(Keys.kIdUser);
     idUserInt = int.parse(idUser);
+    print(idUser);
     emailString.text = SesionDataTemporary.data["email"];
     print(emailString);
   }

@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/build/macos/Build/Intermediates.noindex/Pods.build/Debug/location.build/module.modulemap \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/mantenimiento_vehicular/build/macos/Build/Intermediates.noindex/Pods.build/Debug/location.build/module.modulemap \
   /Users/josewilmersanchezdiaz/.pub-cache/hosted/pub.dev/location-5.0.3/macos/Classes/LocationPlugin.m \
-  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/Target\ Support\ Files/location/location-prefix.pch \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/mantenimiento_vehicular/macos/Pods/Target\ Support\ Files/location/location-prefix.pch \
   /Users/josewilmersanchezdiaz/.pub-cache/hosted/pub.dev/location-5.0.3/macos/Classes/LocationPlugin.h \
   /Users/josewilmersanchezdiaz/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \
   /Users/josewilmersanchezdiaz/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h \

@@ -53,9 +53,9 @@ class MarkingTypeController extends GetxController {
   }
 
   void _initialize() async {
-    getInfoUserLocal();
+    /* getInfoUserLocal();
     await getAllStatesGeneral();
-    await getAllTypesMarkings();
+    await getAllTypesMarkings(); */
   }
 
   /* 📌 Obtener información guarada en localStorage */

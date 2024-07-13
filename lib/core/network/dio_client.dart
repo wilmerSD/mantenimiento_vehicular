@@ -1,7 +1,6 @@
 //import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:app_valtx_asistencia/app/local/storage_service.dart';
 import 'package:app_valtx_asistencia/core/helpers/keys.dart';
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart' as state;
 import 'dart:html' as html;

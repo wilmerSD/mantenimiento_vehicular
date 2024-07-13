@@ -65,6 +65,23 @@ class StateRequestView extends StatelessWidget {
                   children: [
                     ListView(
                       children: [
+                        Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Expanded(
+                              flex: 3,
+                              child: BtnPrimary(
+                                  text: "Nuevo Vehículo",
+                                  onTap: () {
+                                   RouteDataTemporary.currentRoute
+                                  .value = AppRoutesName.HOME;
+                                  })),
+                          const Expanded(flex: 5, child: SizedBox()),
+                        ],
+                      ),
+                      const SizedBox(
+                          height: kSizeNormalMediun,
+                        ),
                         const BodyStateRequest(),
                         const SizedBox(
                           height: kSizeNormalLarge,

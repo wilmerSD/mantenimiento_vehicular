@@ -239,6 +239,7 @@ class AppBarHome extends StatelessWidget {
       Widget btnSearch = BtnPrimary(
           text: "Guardar",
           onTap: () {
+            controller.guardarDatos();
             /* if (keyFormSearch.currentState!.validate()) {
               controller.listUserFilter(false);
             } */

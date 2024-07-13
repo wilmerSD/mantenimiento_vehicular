@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
-  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRCurrentDateProvider.m \
-  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/ProyectoMarcacionesWeb/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRCurrentDateProvider.h
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/mantenimiento_vehicular/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/mantenimiento_vehicular/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRCurrentDateProvider.m \
+  /Users/josewilmersanchezdiaz/Documents/Freelance/Mantenimiento_automoviles/Frontend/mantenimiento_vehicular/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRCurrentDateProvider.h
